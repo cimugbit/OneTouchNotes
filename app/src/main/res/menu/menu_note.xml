@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="org.cimugbit.onetouchnotes.TextNoteActivity">
+
+    <item
+        android:id="@+id/action_insert_date"
+        android:orderInCategory="100"
+        android:title="@string/menu_insert_date" />
+
+    <item
+        android:id="@+id/action_insert_timestamp"
+        android:orderInCategory="100"
+        android:title="@string/menu_insert_timestamp" />
+
+    <item
+        android:id="@+id/action_save"
+        android:orderInCategory="100"
+        android:title="@string/menu_save" />
+
+    <item
+        android:id="@+id/action_cancel"
+        android:orderInCategory="100"
+        android:title="@string/menu_cancel" />
+
+</menu>
